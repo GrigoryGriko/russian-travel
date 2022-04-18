@@ -41,7 +41,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  width: 1184px;
+  width: calc(100% - 96px);
   height: 52px;
 }
 .logo {
@@ -81,7 +81,7 @@
 }
 .lead__title {
   margin: 0;
-  width: 720px;
+  max-width: 720px;
 
   font-size: 96px;
   color: #fff;
@@ -91,7 +91,7 @@
 }
 .lead__subtitle {
   margin: 0;
-  width: 640px;
+  max-width: 640px;
   margin-top: 32px;
 
   font-size: 30px;
@@ -119,3 +119,52 @@
   line-height: 14px;
   text-transform: uppercase;
 }
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  max-width: 984px;
+}
+.intro__title {
+  margin: 0;
+  max-width: 690px;
+
+  font-size: 54px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: left;
+}
+.intro__subtitle {
+  margin: 0;
+  max-width: 690px;
+
+  margin-top: 40px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 163%;
+  text-align: left;
+}
+.intro__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 33px;
+
+  font-size: 12px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+}
+.intro__list-stroke {
+  margin: 0;
+}
+.intro__list-stroke-span {
+  font-weight: 400;
+}
+
