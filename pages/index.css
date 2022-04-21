@@ -57,7 +57,7 @@
   width: calc(100% - 96px);
   max-width: 1184px;
   height: 52px;
-  flex-grow: auto;
+  margin-top: 28px;
 }
 .logo {
 
