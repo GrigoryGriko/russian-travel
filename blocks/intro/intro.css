@@ -1,0 +1,8 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  margin-top: 92px;
+  text-align: left;
+  /*margin-left: calc(50% - (984px /2) );*/
+  width: calc(100% - 96px);
+}

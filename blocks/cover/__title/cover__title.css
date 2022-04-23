@@ -1,0 +1,13 @@
+.cover__title {
+  margin: 0;
+
+  margin-top: 62.5%;  /*отступ на который поднялся заголовок,
+  когда было задано пропорциональное изменение высоты cover__background в зависимости от его ширины*/
+
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+  z-index: 3;
+}

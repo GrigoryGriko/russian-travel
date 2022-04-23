@@ -1,7 +1,5 @@
-.header__lang-links {
+.footer__links-ul {
   display: flex;
-  align-items: end;
-
   margin: 0;
   padding: 0;
   list-style-type: none;

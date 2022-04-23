@@ -1,0 +1,11 @@
+.intro__subtitle {
+  margin: 0;
+  max-width: 690px;
+
+  margin-top: 40px;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 163%;
+  text-align: left;
+}
