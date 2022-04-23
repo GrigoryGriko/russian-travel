@@ -11,4 +11,7 @@
 6. Использована система Grid Layout для позиционирования элементов по сетке.
 7. Добавлено сглаживание шрифтов.
 
+Ссылка на GitHub Pages:
+https://grigorygriko.github.io/russian-travel/
+
 
