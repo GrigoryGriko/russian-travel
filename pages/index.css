@@ -49,6 +49,9 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   background-color: #2A2C2F;
   font-family: "inter";
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .header {
