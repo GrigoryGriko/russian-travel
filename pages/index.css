@@ -10,12 +10,12 @@
 
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__links-li/footer__links-li.css);
-@import url(../blocks/footer/__links-nav/footer__links-nav.css);
-@import url(../blocks/footer/__links-ul/footer__links-ul.css);
+@import url(../blocks/footer/__links-item/footer__links-item.css);
+@import url(../blocks/footer/__links-wrapper/footer__links-wrapper.css);
+@import url(../blocks/footer/__links-list/footer__links-list.css);
 @import url(../blocks/footer/footer.css);
 
-@import url(../blocks/header/__lang-link-li/header__lang-link-li.css);
+@import url(../blocks/header/__lang-link-item/header__lang-link-item.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/header.css);
@@ -23,12 +23,13 @@
 
 @import url(../blocks/intro/__list-stroke/intro__list-stroke.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-stroke-stats/intro__list-stroke-stats.css);
 @import url(../blocks/intro/__subtitle/intro__subtitle.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/intro.css);
 
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/lead/__image-polka/lead__image-polka.css);
+@import url(../blocks/lead/__picture/lead__picture.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/lead.css);
@@ -39,9 +40,9 @@
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/photo-grid/__image/photo-grid__iamge.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__ul/photo-grid__ul.css);
-@import url(../blocks/photo-grid/__li/photo-grid__li.css);
+@import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 
 @import url(../blocks/places/__image/places__image.css);
@@ -89,7 +90,7 @@
   .photo-grid {
     width: calc(100% - 96px);
   }
-  .photo-grid__ul {
+  .photo-grid__list {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 14px 14px;
@@ -134,7 +135,7 @@
     margin-top: 88px;
     width: calc(100% - 48px);
   }
-  .photo-grid__ul {
+  .photo-grid__list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 16px 16px;
@@ -198,7 +199,7 @@
     line-height: 20px;
     width: calc(100% - 32px);
   }
-  .lead__image-polka {
+  .lead__image {
     margin-top: 40px;
   }
   .lead__caption {
@@ -228,7 +229,7 @@
     margin-top: 64px;
     width: calc(100% - 32px);
   }
-  .photo-grid__ul {
+  .photo-grid__list {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(12, 1fr);
     gap: 12px 12px;
