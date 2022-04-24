@@ -10,3 +10,18 @@
   line-height: 14px;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__caption {
+    margin-left: calc(48px / 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__caption {
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    margin-left: calc(32px / 2);
+  }
+}

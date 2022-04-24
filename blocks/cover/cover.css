@@ -6,3 +6,9 @@
   width: 100%;
   /*height: 755px;*/
 }
+
+@media screen and (max-width: 767px) {
+  .cover {
+    margin-top: 66px;
+  }
+}

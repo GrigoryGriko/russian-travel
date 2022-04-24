@@ -6,3 +6,16 @@
   /*margin-left: calc(50% - (984px /2) );*/
   width: calc(100% - 96px);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+     margin-top: 64px;
+     width: calc(100% - 32px);
+   }
+}

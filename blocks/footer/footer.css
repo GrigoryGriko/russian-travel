@@ -5,3 +5,27 @@
   margin-bottom: 24px;
   width: 100%;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .footer {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    margin-top: 88px;
+    width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    justify-content: none;
+    align-self: start;
+    margin-top: 64px;
+    max-width: 186px;
+    margin-left: calc(32px / 2);
+  }
+}

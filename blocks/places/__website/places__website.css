@@ -5,3 +5,15 @@
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
+@media screen and (max-width: 767px) {
+  .places__website {
+    margin-top: 32px;
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: calc(100% - 32px);
+  }
+}

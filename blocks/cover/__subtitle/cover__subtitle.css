@@ -9,3 +9,12 @@
   color: #fff;
   z-index: 4;
 }
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    width: calc(100% - 32px);
+  }
+}

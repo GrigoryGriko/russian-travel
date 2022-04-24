@@ -7,3 +7,14 @@
   grid-row-start: 3;
   grid-row-end: 6;
 }
+
+@media screen and (max-width: 767px) {
+  .places__image {
+    margin-top: 32px;
+
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}

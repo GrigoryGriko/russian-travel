@@ -5,3 +5,16 @@
   margin-top: 56px;
   width: calc(100% - 96px);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    margin-top: 48px;
+    width: 100%;
+  }
+}

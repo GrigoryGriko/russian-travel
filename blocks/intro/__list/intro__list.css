@@ -11,3 +11,15 @@
   line-height: 18px;
   text-align: left;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__list {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__list {
+    margin-top: 34px;
+  }
+}

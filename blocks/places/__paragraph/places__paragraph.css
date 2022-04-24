@@ -18,3 +18,30 @@
   grid-row-start: 4;
   grid-row-end: 5;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__paragraph {
+    margin-top: 32px;
+
+    font-size: 16px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: calc(100% - 32px);
+  }
+  .places__paragraph:last-child {
+    margin-top: 25px;
+
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
