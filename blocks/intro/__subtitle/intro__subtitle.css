@@ -15,10 +15,3 @@
     max-width: 100%;
   }
 }
-
-@media screen and (max-width: 767px) {
-  .intro__subtitle {
-    font-size: 16px;
-    line-height: 163%;
-  }
-}

@@ -3,7 +3,7 @@
   justify-content: space-between;
   width: calc(100% - 96px);
   max-width: 1184px;
-  height: 52px;
+  min-height: 52px;
   margin-top: 28px;
 }
 
@@ -16,6 +16,7 @@
 @media screen and (max-width: 767px) {
   .header {
     width: calc(100% - 32px);
-    height: 42px;
+    min-height: 42px;
+    margin-top: 16px;
   }
 }
