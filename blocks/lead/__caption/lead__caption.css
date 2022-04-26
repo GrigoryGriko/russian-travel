@@ -1,4 +1,4 @@
-.lead__figcaption {
+.lead__caption {
   margin: 0;
   margin-top: 8px;
   align-self: flex-start;
@@ -12,13 +12,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .lead__figcaption {
+  .lead__caption {
     margin-left: calc(48px / 2);
   }
 }
 
 @media screen and (max-width: 767px) {
-  .lead__figcaption {
+  .lead__caption {
     margin-left: calc(32px / 2);
   }
 }

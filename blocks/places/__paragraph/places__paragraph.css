@@ -1,8 +1,6 @@
 .places__paragraph {
   margin: 0;
 
-  margin-bottom: 26px;
-
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
@@ -13,8 +11,8 @@
   grid-row-start: 3;
   grid-row-end: 4;
 }
-.places__paragraph:last-child {
-  margin-bottom: 0;
+.places__paragraph:nth-of-type(2) {
+  margin-top: 26px;
 
   grid-column-start: 2;
   grid-column-end: 3;
@@ -30,7 +28,6 @@
 
 @media screen and (max-width: 767px) {
   .places__paragraph {
-    margin-bottom: 25px;
 
     font-size: 16px;
     grid-row-start: 4;
@@ -39,8 +36,8 @@
     grid-column-end: 2;
     width: calc(100% - 32px);
   }
-  .places__paragraph:last-child {
-    margin-bottom: 0;
+  .places__paragraph:nth-of-type(2) {
+    margin-top: 25px;
 
     grid-row-start: 5;
     grid-row-end: 6;
